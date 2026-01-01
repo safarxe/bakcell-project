@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/bakcell-project/assets/logo-CNh5iq09.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>bakcell</title>
+    <script type="text/javascript">
+      // spa redirect handler
+      (function() {
+        var redirect = sessionStorage.getItem('spa-redirect');
+        if (redirect) {
+          sessionStorage.removeItem('spa-redirect');
+          window.history.replaceState(null, null, '/bakcell-project' + redirect);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/bakcell-project/assets/index-3v1g-6dM.js"></script>
+    <link rel="stylesheet" crossorigin href="/bakcell-project/assets/index-CWoHqPSV.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
